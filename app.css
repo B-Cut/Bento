@@ -8,6 +8,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
 
+/*I'll use the rosepine theme colors, matching my current desktop*/
+
 :root {
   /* Font Size */
   --fg-primary: 12vh; /* Time and Greetings */
@@ -35,13 +37,13 @@
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #19171a; /* Background color */
-  --cards: #201e21; /* Cards color */
+  --accent: #ebbcba; /* Hover color */
+  --background: #1f1d2e; /* Background color */
+  --cards: #26233a; /* Cards color */
 
   /* Fonts Color */
-  --fg: #d8dee9; /* Foreground color */
-  --sfg: #2c292e; /* Secondary Foreground color */
+  --fg: #e0def4; /* Foreground color */
+  --sfg: #21202e; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
