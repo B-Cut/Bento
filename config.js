@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'BCut',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -61,13 +61,13 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://outlook.live.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Classroom',
+			icon: 'school',
+			link: 'https://classroom.google.com/u/1/',
 		},
 		{
 			id: '4',
@@ -77,15 +77,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Twitter',
+			icon: 'bird',
+			link: 'https://twitter.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -132,27 +132,28 @@ const CONFIG = {
 	// │  │└─┐ │ └─┐
 	// ┴─┘┴└─┘ ┴ └─┘
 
-	// First Links Container
+	// I don't have much i actually need tbh
+	// Don't mind some of these sites tho
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'folder',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Books and Articles',
+					link: 'https://annas-archive.org/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'ROMs',
+					link: 'https://r-roms.github.io/',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Itch',
+					link: 'https://itch.io/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'GOG',
+					link: 'https://www.gog.com/',
 				},
 			],
 		},
@@ -165,16 +166,18 @@ const CONFIG = {
 					link: 'https://www.linkedin.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Reddit',
+					link: 'https://www.reddit.com',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Blender Artists',
+					link: 'https://blenderartists.org/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					// Don't use it much so if i find something i need more 
+					// I'll fit it here.
+					name: 'IRC',
+					link: 'https://kiwiirc.com/nextclient/',
 				},
 			],
 		},
